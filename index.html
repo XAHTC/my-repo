@@ -5,172 +5,197 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio page</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="">
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a href="#" class="navbar-link active">Home</a>
-        <a href="#" class="navbar-link">About me</a>
-        <a href="#" class="navbar-link">Skills</a>
-        <a href="#" class="navbar-link">Portfolio</a>
-        <a href="#" class="navbar-link">Contacts</a>
-      </nav>
-      <div class="header-separator"></div>
-    </div>
-  </header>
-  
-  <div class="promo">
-    <div class="container">
-      <div class="promo-container">
-        <p class="promo-item-name">Denis<br>Novik</p>
-        <p class="promo-item-info">UX | UI designer<br>24 years old, Minsk</p>
-        <p class="promo-item-changer">
-          <span class="promo-item-span" href="#">RU</span> | <span class="promo-item-span active" href="#">ENG</span>
-        </p>
-      </div>
-      <img src="img/promo-img.png" alt="photo" class="promo-photo">
-    </div>
-  </div>
-
-  <div class="about">
-    <div class="container">
-      <h2 class="section-title">
-        About me
-      </h2>
-      <div class="about-text">
-        <p class="about-text-item">
-          Hi, I'm Denis – UX/UI designer from  Minsk.<br>
-          I'm interested in design and everything connected with it.
-          </p>
-        <p class="about-text-item">
-          I'm studying at courses "Web and mobile design<br>
-          interfaces" in IT-Academy.</p>
-        <p class="about-text-item">
-          Ready to implement excellent projects<br>
-          with wonderful people.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="skills">
-    <div class="container">
-      <h2 class="section-title">
-        Skills
-      </h2>
-      <p class="skills-text">
-        I work in such programs as
-      </p>
-      <div class="skills-container">
-        <div class="skills-item">
-          <img src="img/adobe-p.png" alt="photoshop" class="skills-item-img">
-          <p class="skills-item-text">
-            Adobe<br>Photoshop
-          </p>
-          <div class="skills-item-stars">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star.png" alt="skill" class="skills-item-stars-img">
+  <div class="wrapper">
+    <main class="page">
+      <div class="container"></div>
+      <header class="header">
+        <div class="container">
+          <div class="header__row">
+            <nav class="header__menu menu">
+              <div class="menu__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu__body">
+                <ul class="menu__list">
+                  <li><a href="" class="menu__link">Home</a></li>
+                  <li><a href="" class="menu__link">About me</a></li>
+                  <li><a href="" class="menu__link">Skills</a></li>
+                  <li><a href="" class="menu__link">Portfolio</a></li>
+                  <li><a href="" class="menu__link">Contacts</a></li>
+                </ul>
+              </div>
+            </nav>
           </div>
         </div>
-        <div class="skills-item">
-          <img src="img/adobe-i.png" alt="illustrator" class="skills-item-img">
-          <p class="skills-item-text">
-            Adobe<br>Illustrator
-          </p>
-          <div class="skills-item-stars">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star.png" alt="skill" class="skills-item-stars-img">
+      </header>
+      <div class="promo">
+        <div class="container">
+          <div class="promo__row">
+            <h1 class="promo__text">Denis<br>
+              Novik</h1>
+            <p class="promo__text">UX | UI designer<br>
+              24 years old, Minsk</p>
+            <p class="promo__text">RU | ENG</p>
           </div>
-        </div>
-        <div class="skills-item">
-          <img src="img/adobe-e.png" alt="effects" class="skills-item-img">
-          <p class="skills-item-text">
-            Adobe<br>After Effects
-          </p>
-          <div class="skills-item-stars">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star.png" alt="skill" class="skills-item-stars-img">
-          </div>
-        </div>
-        <div class="skills-item">
-          <img src="img/figma.png" alt="figma" class="skills-item-img">
-          <p class="skills-item-text">
-            Figma<br><br>
-          </p>
-          <div class="skills-item-stars">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star-filled.png" alt="skill" class="skills-item-stars-img">
-            <img src="img/star.png" alt="skill" class="skills-item-stars-img">
-          </div>
+          <img src="img/promo-img.png" alt="promo" class="promo__image">
         </div>
       </div>
-    </div>
+
+      <section class="about">
+        <div class="container">
+          <h2 class="section__title">
+            About me
+          </h2>
+          <p class="about__text">
+            Hi, I'm Denis – UX/UI designer from Minsk.<br>
+            I'm interested in design and everything connected with it.
+          </p>
+          <p class="about__text">
+            I'm studying at courses "Web and mobile design<br>
+            interfaces" in IT-Academy.
+          </p>
+          <p class="about__text">
+            Ready to implement excellent projects<br>
+            with wonderful people.
+          </p>
+        </div>
+      </section>
+      
+      <section class="skills">
+        <div class="container">
+          <h2 class="section__title">
+            Skills
+          </h2>
+          <p class="skills__text">
+            I work in such programs as
+          </p>
+          <div class="skills__row">
+            <div class="skills__col">
+              <img src="img/adobe-p.png" alt="Photoshop" class="skills__col-img">
+              <p class="skills__col-text">
+                Adobe<br>
+                Photoshop 
+              </p>
+              <div class="skills__col-stars">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star.png" alt="star" class="skills__star">
+              </div>
+            </div>
+            <div class="skills__col">
+              <img src="img/adobe-i.png" alt="Illustrator" class="skills__col-img">
+              <p class="skills__col-text">
+                Adobe<br>
+                Illustrator
+              </p>
+              <div class="skills__col-stars">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star.png" alt="star" class="skills__star">
+                <img src="img/star.png" alt="star" class="skills__star">
+              </div>
+            </div>
+            <div class="skills__col">
+              <img src="img/adobe-e.png" alt="Effects" class="skills__col-img">
+              <p class="skills__col-text">
+                Adobe<br>
+                After Effects 
+              </p>
+              <div class="skills__col-stars">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star.png" alt="star" class="skills__star">
+              </div>
+            </div>
+            <div class="skills__col">
+              <img src="img/figma.png" alt="Figma" class="skills__col-img">
+              <p class="skills__col-text">
+                Figma<br><br>
+              </p>
+              <div class="skills__col-stars">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star-filled.png" alt="star" class="skills__star">
+                <img src="img/star.png" alt="star" class="skills__star">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="section__title">
+            Portfolio
+          </h2>
+          <div class="portfolio__item">
+            <img src="img/portfolio-1.png" class="portfolio__item-img"></img>
+            <a href="" class="portfolio__item-link">
+              Online fashion store - Homepage
+            </a>
+          </div>
+          <div class="portfolio__item">
+            <img src="img/portfolio-2.png" class="portfolio__item-img"></img>
+            <a href="" class="portfolio__item-link">
+              Reebok Store - Concept
+            </a>
+          </div>
+          <div class="portfolio__item">
+            <img src="img/portfolio-3.png" class="portfolio__item-img"></img>
+            <a href="" class="portfolio__item-link">
+              Braun Landing Page - Concept
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <h2 class="section__title">
+            Contacts
+          </h2>
+          <p class="footer__text">
+            Want to know more or just chat?<br>
+            You are welcome!
+          </p>
+          <button class="footer-btn">
+            Send message
+          </button>
+          <div class="footer__social">
+            <a href="" class="footer__social-link">
+              <img src="img/linkedin.png" alt="LinkedIn" class="footer__social-img">
+            </a>
+            <a href="" class="footer__social-link">
+              <img src="img/insta.png" alt="Instagram" class="footer__social-img">
+            </a>
+            <a href="" class="footer__social-link">
+              <img src="img/be.png" alt="Behance" class="footer__social-img">
+            </a>
+            <a href="" class="footer__social-link">
+              <img src="img/ball.png" alt="Dribble" class="footer__social-img">
+            </a>
+          </div>
+          <p class="footer__post">
+            Like me on<br>      
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </footer>
+
+      </div>
+    </main>
   </div>
-
-  <div class="portfolio">
-    <div class="container">
-      <h2 class="section-title">
-        Portfolio
-      </h2>
-      <div class="portfolio-item">
-        <img src="img/portfolio-1.png" alt="site" class="portfolio-item-img">
-        <a href="#" class="portfolio-item-link">Online fashion store - Homepage</a>
-      </div>
-      <div class="portfolio-item">
-        <img src="img/portfolio-2.png" alt="site" class="portfolio-item-img">
-        <a href="#" class="portfolio-item-link">Reebok Store - Concept</a>
-      </div>
-      <div class="portfolio-item">
-        <img src="img/portfolio-3.png" alt="site" class="portfolio-item-img">
-        <a href="#" class="portfolio-item-link">Braun Landing Page - Concept</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="container">
-      <h2 class="section-title">
-        Contacts
-      </h2>
-      <p class="footer-text">
-        Want to know more or just chat?<br>
-        You are welcome!
-      </p>
-
-      <button class="footer-btn">
-        Send message
-      </button>
-      <div class="footer-social">
-        <a href="" class="footer-social-link">
-          <img src="img/linkedin.png" alt="LinkedIn" class="footer-social-img">
-        </a>
-        <a href="" class="footer-social-link">
-          <img src="img/insta.png" alt="Instagram" class="footer-social-img">
-        </a>
-        <a href="" class="footer-social-link">
-          <img src="img/bs.png" alt="bs" class="footer-social-img">
-        </a>
-        <a href="" class="footer-social-link">
-          <img src="/img/ball.png" alt="ball" class="footer-social-img">
-        </a>
-      </div>
-
-      <p class="footer-post">
-        Like me on<br>
-        LinkedIn, Instagram, Behance, Dribble
-      </p>
-    </div>
-  </div>
+  <script src="js/js.js"></script>
 </body>
 </html>
