@@ -112,7 +112,7 @@ select {
   border-bottom: 2px solid #828282;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 414px) {
 
   .menu__body {
     position: fixed;
