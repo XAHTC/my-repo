@@ -15,6 +15,7 @@ for (let anchor of anchors) {
       behavior: "smooth",
       block: "start"
     });
+    menuBody.classList.toggle("active");
   });
 };
 
@@ -50,6 +51,5 @@ if (animItems.length > 0) {
       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
   }
-
   animOnScroll();
 }

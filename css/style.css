@@ -104,13 +104,13 @@ select {
   border-bottom: 2px solid #828282;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 460px) {
 
   .menu__body {
     position: fixed;
     padding: 0 15px;  
     width: 100%;
-    height: 35%;
+    height: 30%;
     overflow: auto;
     top: 0;
     left: 0;
@@ -140,7 +140,7 @@ select {
 
   .menu__icon {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 18px;
     right: 10px;
     width: 30px;
@@ -177,15 +177,17 @@ select {
   color: #000;
 }
 
-.menu__list li {
-  transform: translate(0px, -120%);
-  opacity: 0;
-  transition: all .8s ease;
-}
-
-.menu__list li._active {
-  transform: translate(0px, 0px);
-  opacity: 1;
+@media (min-width: 461px) {
+  .menu__list li {
+    transform: translate(0px, -120%);
+    opacity: 0;
+    transition: all .8s ease;
+  }
+  
+  .menu__list li._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
 }
 
 /********************************************************/
@@ -313,22 +315,22 @@ select {
 
 .skills__col:nth-child(1)._active {
   transform: scale(1);
-  transition: all .8s ease ;
+  transition: all .3s ease 1.5s;
 }
 
 .skills__col:nth-child(2)._active {
   transform: scale(1);
-  transition: all .8s ease 1s;
+  transition: all .3s ease 2s;
 }
 
 .skills__col:nth-child(3)._active {
   transform: scale(1);
-  transition: all .8s ease 2s;
+  transition: all .3s ease 2.5s;
 }
 
 .skills__col:nth-child(4)._active {
   transform: scale(1);
-  transition: all .8s ease 3s;
+  transition: all .3s ease 3s;
 }
 
 @media (max-width: 460px) {
